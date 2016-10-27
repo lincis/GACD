@@ -9,7 +9,7 @@ if(length(new.packages)) install.packages(new.packages)
 # Load reshape2 package
 library(reshape2)
 #This is where data resides on my system
-setwd("~/Dropbox/Coursera/Getting and Clearing data/project/UCI HAR Dataset/")
+#setwd("~/Dropbox/Coursera/Getting and Clearing data/project/UCI HAR Dataset/")
 
 #Read all train and test data
 trainY = read.table("./train/y_train.txt")
